@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "url_storages",
+  "info": {
+    "singularName": "url-storage",
+    "pluralName": "url-storages",
+    "displayName": "url-storage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "PageName": {
+      "type": "string"
+    },
+    "PageImage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "PageUrl": {
+      "type": "string"
+    },
+    "GithubRepo": {
+      "type": "string"
+    },
+    "PageDescription": {
+      "type": "richtext"
+    }
+  }
+}
